@@ -1,0 +1,179 @@
+html {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 11px; background-color: #E8F7FA;
+	background-image: url(http://www.bogota.unal.edu.co/plantillas/nacional_1024/css_img_nacional/fondo.jpg);
+	background-repeat: no-repeat; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: arial
+}
+body {
+	margin-top: 5px;
+}
+
+#contenedor {
+	margin-left:auto;
+	margin-right:auto;
+	MARGIN-TOP:3px;
+	width: 950px;
+	border:1px solid #999;
+	height:auto;
+	background-color: #FFFFFF;
+	display:table;
+}
+
+
+.header {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 96px; TEXT-ALIGN: left; width:778px;
+}
+#unal_logo{
+	width:185px;
+	height:80px;
+	background:url("http://www.bogota.unal.edu.co/plantillas/nacional_1024/css_img_nacional/logo_nal.gif") no-repeat;
+	padding-top:10px;
+}
+#dark{
+	width:950px;
+	height:18px;
+}
+#fill_dark{
+	width:486px;
+	float:right;
+	height:18px;
+	background:url("http://www.bogota.unal.edu.co/plantillas/nacional_1024/css_img_nacional/fill_dark.gif");
+}
+#inicio_un{
+	height:18px;
+	width:99px;
+	float:left;
+}
+#sedes_un{
+	height:18px;
+	width:73px;
+	float:left;
+}
+#rss_un{
+	height:18px;
+	width:25px;
+	background:url("http://www.bogota.unal.edu.co/plantillas/nacional_1024/css_img_nacional/css_un.jpg");
+	float:right;
+}
+#buscador_un{
+	height:18px;
+	width:142px;
+	margin-right:15px;
+	float:right;
+}
+#correo{
+	height:18px;
+	width:70px;
+	float:left;
+}
+#fecha{
+	height:18px;
+	width:210px;
+	float:left;
+}
+.fechatexto {
+	font-size: 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #666666;
+	text-align: left;
+	height:18px;
+	background-color: #FFFFFF;
+	margin-right: 8px;	
+}
+.field {
+	border: 1px solid #666;
+	width: 110px;
+	font-size: 10px;
+	margin-bottom: 13px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#light{
+	width:950px;
+	height:18px;
+}
+#fill_light{
+	width:949px;
+	height:18px;
+	float:left;
+}
+#fill_light2{
+	width:522px;
+	height:18px;
+	background:url("http://www.bogota.unal.edu.co/plantillas/nacional_1024/css_img_nacional/fill_light.gif");
+	float:left;
+}
+#finalight{
+	width:40px;
+	height:18px;
+	background:url("http://www.bogota.unal.edu.co/plantillas/nacional_1024/css_img_nacional/finalight.jpg") no-repeat;
+	float:left;
+}
+#iniciolight{
+	width:84px;
+	height:18px;
+	float:left;
+}
+#titulopagina {
+float:left; width:940px; margin-bottom:13px;
+}
+#dependenciapagina {
+float:left; width:940px; height:14px; margin-top:2px;
+}
+.txpagina1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+.txpagina2 {
+font-family: Arial, Helvetica, sans-serif; color: #999999;
+	font-size: 9px;
+}
+
+
+#contenido {
+MARGIN-TOP:3px; width: 950px; background:#ffffff;
+}
+
+#piedireccion {
+	margin-left:10px; font-family:Arial, Helvetica, sans-serif; font-size: 10px; color: #333333; TEXT-ALIGN: left; width:447px; margin-top:2px; float:left;
+}
+#piedepagina {
+	width:950px; background-color: #CCCCCC; height:48px; float:left;
+	font-size: 10px; font-family:Arial, Helvetica, sans-serif; color: #666666; 
+}
+#piescudo {
+	HEIGHT: 48px; width:142px; float:left; background-image: url(http://www.bogota.unal.edu.co/plantillas/nacional_1024/css_img_nacional/escudo0.gif)}
+
+#pienegrita {
+font-weight:bold
+}
+#pietelefono {
+    font-size: 10px; font-family:Arial, Helvetica, sans-serif; color: #333333; TEXT-ALIGN: right; width:336px; height:48px; margin-top:3px; float:left;
+}
+#pietelefono a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+#pietelefono a:visited {
+	text-decoration: none;
+	color: #ffffff;
+}
+#pietelefono a:hover {
+	text-decoration: underline;
+	color: #ffffff;
+}
+#pietelefono a:active {
+	text-decoration: none;
+	color: #ffffff;
+}
+#avisolegal {font-size: 9px; color: #666666}
+#contenedor #izquierdo {
+	background-color: #FFFFFF;
+	float: left;
+	height: auto;
+	width: 200px;
+}
+#contenedor #derecho {
+	background-color: #FFFFFF;
+	float: left;
+	height: auto;
+	width: 578px;
+}
