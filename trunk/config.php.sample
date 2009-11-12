@@ -264,3 +264,11 @@ $config['sphinx']['port'] = 3312;
 // $config['attachments']['path'] = "/file/";
 
 // $config['oohembed']['endpoint'] = 'http://oohembed.com/oohembed/';
+
+// LDAP authentication 
+// requires PEAR Net_LDAP 
+// $config['ldap']['enabled'] = true;
+// $config['ldap']['server'] = 'serverldap.example.com'; 
+// $config['ldap']['userid'] = 'uid'; 
+// $config['ldap']['basedn'] = 'ou=people,o=city,o=domain.com';
+// $config['ldap']['passwordurlchange'] = 'http://changepassword.example.com';
