@@ -267,6 +267,7 @@ $config['sphinx']['port'] = 3312;
 
 // LDAP authentication 
 // requires PEAR Net_LDAP 
+// $config['ldap']['domain'] = domain.com;
 // $config['ldap']['enabled'] = true;
 // $config['ldap']['server'] = 'serverldap.example.com'; 
 // $config['ldap']['userid'] = 'uid'; 
