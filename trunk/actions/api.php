@@ -66,7 +66,7 @@ class ApiAction extends Action
             	   if (!($this->nicknameExists($nickname))) {
               		if (common_ldap_check_user($nickname,$password)){
                 	common_ldap_get_name($nickname,$password,$fullname);
-                	$email    = $nickname."@unal.edu.co";
+                	$email    = $nickname.common_config('ldap', 'domain');
                 	$nickname = common_canonical_nickname($nickname);
                 	$email    = common_canonical_email($email);
                 	$user = User::register(array('nickname' => $nickname,
