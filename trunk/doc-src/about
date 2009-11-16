@@ -1,10 +1,10 @@
-%%site.name%% is a
-[micro-blogging](http://en.wikipedia.org/wiki/Micro-blogging) service
-based on the Free Software [StatusNet](http://status.net/) tool.
+%%site.name%% es un
+[micro-blogging](http://es.wikipedia.org/wiki/Microblogging) servicio
+Basado en la herramienta de software libre [StatusNet](http://status.net/).
 
-If you [register](%%action.register%%) for an account,
-you can post small (140 chars or less) text notices
-about yourself, where you are, what you're doing, or practically
-anything you want. You can also subscribe to the notices of your
-friends, or other people you're interested in, and follow them on the
-Web or in an [RSS](http://en.wikipedia.org/wiki/RSS) feed.
+Si tu [registras](%%action.register%%) una cuenta,
+tu podrás escribir noticias sobre ti 
+(140 caracteres o menor), donde estás, lo que está haciendo, 
+o lo que tu quieras. También puede suscribirse a los avisos 
+de tus amigos u otras personas que te interesa, y seguirlos
+en la Web o por medio de fuentes [RSS](http://es.wikipedia.org/wiki/RSS).
