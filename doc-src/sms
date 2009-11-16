@@ -1,68 +1,71 @@
-You can post messages to %%site.name%% using a many kinds of cell
-phones that support SMS messaging. This site does not support SMS
-directly; rather, it uses your carrier's email gateway to send and
-receive messages.
+Tu puedes enviar mensajes a %%site.name%% usando uno de muchos tipos de
+teléfonos móviles que soportan envio de SMS. Este sitio no siporta envio
+de SMS directamente; por ello te recomentamos, consulta a tu operador el 
+envio de SMS a una dirección de correo y posibles costos por recepción de
+los mensajes.
 
-Managing your SMS settings
+Manejo de sus opciones SMS
 --------------------------
 
-Use the [SMS settings](%%action.smssettings%%) page to set your SMS
-preferences. You can add or change your SMS number and set the
-flags for SMS updates.
+Use la página de [configuraciones SMS](%%action.smssettings%%) donde podrás 
+seleccionar las preferencias para tu cuenta. También podrás agregar o 
+cambuar tu número móvil de igual forma habilitar o deshabilitar el servicio.
 
-When you add or change your phone number, you'll receive a message on your
-phone with a verification code. Enter it into the SMS settings page to
-confirm that the owner of the phone authorizes sending it messages.
+Al agregar o cambiar su número de teléfono, usted recibirá un mensaje en 
+su teléfono móvil con un código de verificación. Introduzca en la página de 
+configuración SMS dicho código para confirmar que tu eres el dueño del 
+número teléfono móvil y autoriza el envío de mensajes.
 
-Note that only the carriers listed in the drop down list on the form
-are supported by %%site.name%%. They're the only ones we know how to
-make email addresses for.
+enga en cuenta que sólo las compañías que figuran en la lista 
+desplegable en el formulario son soportadas por %%site.name%%.
 
-Receiving messages
+Recibiendo mensajes
 ------------------
 
-Once you've verified your phone number, you can enable sending
-messages to your phone. If you have a lot of friends and a typical
-phone, it can be hard to keep up.
+Una vez que hayas verificado tu número de teléfono móvil, puedes habilitar 
+el envío de mensajes a tu teléfono. Si tu tienes un montón de amigos y 
+un teléfono normal, ten en cuenta que seguramente recibiras muchos SMS y
+podrá llenar fácilmente tu buzón de entrada.
 
-Sending messages
+Enviando mensajes
 ----------------
 
-To send a message, you must send an email to the incoming email
-address visible on your SMS settings page. The method for sending
-email from your phone varies from carrier to carrier and from handset
-to handet; if in doubt, ask your carrier.
+Para enviar un mensaje, tienes que enviar un correo electrónico a la 
+dirección de correo electrónico que aparece en la página de configuración SMS
+de tu cuenta. El método para enviar correo electrónico desde tu teléfono 
+varía en cada una de las compañías; en caso de duda, consulte a tu proveedor
+de telefonía móvil. 
 
-Keep your incoming email address a secret -- it's the only way we know
-you're really you!
+Manten tu dirección de correo electrónico entrante en secreto ¡Es la única 
+manera de saber que eres tu quien envia el mensaje! 
 
-Commands
+Comandos
 --------
 
-You can use the following commands with %%site.name%%.
+Puedes usar los siguientes comandos en %%site.name%%.
 
-* on - turn on notifications
-* off - turn off notifications
-* help - show this help
-* follow &lt;nickname&gt; - subscribe to user
-* leave &lt;nickname&gt; - unsubscribe from user
-* d &lt;nickname&gt; &lt;text&gt; - direct message to user
-* get &lt;nickname&gt; - get last notice from user
-* whois &lt;nickname&gt; - get profile info on user
-* fav &lt;nickname&gt; - add user's last notice as a 'fave'
-* stats - get your stats
-* stop - same as 'off'
-* quit - same as 'off'
-* sub &lt;nickname&gt; - same as 'follow'
-* unsub &lt;nickname&gt; - same as 'leave'
-* last &lt;nickname&gt; - same as 'get'
-* on &lt;nickname&gt; - not yet implemented.
-* off &lt;nickname&gt; - not yet implemented.
-* nudge &lt;nickname&gt; - not yet implemented.
-* invite &lt;phone number&gt; - not yet implemented.
-* track &lt;word&gt; - not yet implemented.
-* untrack &lt;word&gt; - not yet implemented.
-* track off - not yet implemented.
-* untrack all - not yet implemented.
-* tracks - not yet implemented.
-* tracking - not yet implemented.
+* on - Activa las notificaciones
+* off - Desactiva las notificaciones
+* help - Muestra esta ayuda
+* follow &lt;nickname&gt; - Te suscribes al usuario
+* leave &lt;nickname&gt; - Eliminas la suscripción al usuario
+* d &lt;nickname&gt; &lt;text&gt; - Envias un mensaje directo al usuario
+* get &lt;nickname&gt; - Obtienes la última noticia del usuario
+* whois &lt;nickname&gt; - Obtienes la información personal del usuario
+* fav &lt;nickname&gt; - Añades el último aviso del usuario como un 'Favorito'
+* stats - Obtienes tus estadísticas
+* stop - Similar a 'off'
+* quit - Similar a 'off'
+* sub &lt;nickname&gt; - Similar a 'follow'
+* unsub &lt;nickname&gt; - Similar a 'leave'
+* last &lt;nickname&gt; - Similar a 'get'
+* on &lt;nickname&gt; - No ha sido implementado.
+* off &lt;nickname&gt; - No ha sido implementado.
+* nudge &lt;nickname&gt; - No ha sido implementado.
+* invite &lt;phone number&gt; - No ha sido implementado.
+* track &lt;word&gt; - No ha sido implementado.
+* untrack &lt;word&gt; - No ha sido implementado.
+* track off - No ha sido implementado.
+* untrack all - No ha sido implementado.
+* tracks - No ha sido implementado.
+* tracking - No ha sido implementado.
